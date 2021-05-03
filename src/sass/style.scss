@@ -1,0 +1,13 @@
+@import 'bootstrap-reboot.scss';
+
+*{
+    font-family: Roboto;
+    font-style: normal;
+}
+
+body{
+    width: 1050px;
+    margin: 0 auto;
+}
+
+@import 'header.scss';
