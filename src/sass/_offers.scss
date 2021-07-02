@@ -1,0 +1,41 @@
+.offers{
+    padding-top: 55px;
+    padding-bottom: 120px;
+    &__title{
+        text-align: center;
+        font-size: 40px;
+        color: #000;
+    }
+    &__points{
+        margin-top: 55px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img{
+        display: block;
+        margin: 0 auto;
+    }
+    &__point{
+        &:nth-child(2){
+            margin-top: 17px;
+        }
+        &__title{
+            min-width: 225px;
+            font-size: 23px;
+            margin-top: 20px;
+        }
+        &__line{
+            display: block;
+            width: 94px;
+            border: 1px solid #F6C6CF;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        &__text{
+            width: 203px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+}

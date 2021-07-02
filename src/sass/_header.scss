@@ -1,7 +1,9 @@
 .header{
     display: flex;
     flex-direction: row;
-    
+    background: url('../img/cleaner_header.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
     &__content{
         padding-top: 165px;
     }
