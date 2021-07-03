@@ -1,0 +1,36 @@
+.questions{
+    background: #E5E5E5;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    &__title{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    &__block{
+        margin-top: 35px;
+    }
+    &__question{
+        font-size: 23px;
+    }
+    &__answer{
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 10px;
+    }
+    &__btn{
+        display: block;
+        width: 295px;
+        height: 60px;
+        background: #B5CA00;
+        border-radius: 4px;
+        margin: 0 auto;
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+    }
+}
