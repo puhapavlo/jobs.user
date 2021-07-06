@@ -1,0 +1,144 @@
+@media(max-width: 1100px){
+    .anketa{
+        &__container{
+            background-image: none;
+        }
+        &__form{
+            padding-top: 0;
+            padding-bottom: 50px;
+            align-items: center;
+            flex-direction: column;
+        }
+        &__block:nth-child(1){
+            padding-right: 0;
+        }
+        &__block:nth-child(2){
+            padding-left: 0;
+        }
+        &__btn{
+            margin: 0 auto;
+            margin-top: 115px;
+        }
+        &__label{
+            margin-top: 30px;
+        }
+    }
+    
+    .team{
+        &__blocks{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__block{
+            &-title{
+                display: inline-block;
+                padding-left: 40px;
+                vertical-align: middle;
+            }
+        }
+        &__number{
+            display: inline-block;
+            text-align: center;
+            padding-top: 7px;
+            transform: translateY(20px);
+        }
+        &__descr{
+            width: 295px;
+        }
+    }
+    .offers{
+        &__points{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__point{
+            &:nth-child(2){
+                margin-top: 60px;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 60px;
+        }
+    }
+
+    .questions{
+        &__answer{
+            font-style: italic;
+            width: 300px;
+        }
+        &__question{
+            font-weight: 500;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .header{
+        padding-left: 20px;
+    }
+    
+}
+
+@media(max-width: 576px){
+    .header{
+        padding-left: 0;
+        &__title{
+            text-align: center;
+            font-size: 16px;
+        }
+        &__text{
+            text-align: center;
+            font-size: 28px;
+        }
+        &__content{
+            align-items: center;
+        }
+        &__btn{
+            font-size: 18px;
+        }
+    }
+    .offers{
+        &__title{
+            font-size: 30px;
+        }
+        &__point{
+            &__title{
+                font-size: 23px;
+            }
+        }
+    }
+    .team{
+        &__title{
+            font-size: 30px;
+        }
+    }
+    .anketa{
+        &__title{
+            text-align: center;
+        }
+    }
+    .questions{
+        &__title{
+            font-size: 30px;
+        }
+        &__question{
+            font-size: 20px;
+        }
+    }
+}
+
+@media(max-width: 370px){
+    .header{
+        padding-left: 0;
+        background-image: url('../img/cleaner_header_mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% 100%;
+    }
+    .anketa{
+        &__input{
+            width: 295px;
+        }
+    }
+}

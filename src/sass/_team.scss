@@ -9,6 +9,7 @@
         display: flex;
         justify-content: space-between;
         margin-top: 67px;
+        flex-wrap: wrap;
     }
     &__number{
         width: 60px;

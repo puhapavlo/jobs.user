@@ -1,23 +1,24 @@
 .header{
-    display: flex;
-    flex-direction: row;
     background: url('../img/cleaner_header.jpg');
     background-repeat: no-repeat;
     background-position: top right;
     padding-bottom: 100px;
     &__content{
         padding-top: 165px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     &__title{
-        width: 333px;
+        max-width: 333px;
         font-weight: bold;
         font-size: 20px;
         color: #B5CA00;
     }
 
     &__text{
-        width: 342px;
+        max-width: 342px;
         font-weight: normal;
         font-size: 40px;
         line-height: 47px;
@@ -34,11 +35,6 @@
         font-size: 18px;
         font-weight: 700;
         color: #FFFFFF;
-    }
-
-    &__img{
-        max-width: 866px;
-
     }
 
 }
