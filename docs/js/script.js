@@ -1,5 +1,5 @@
 $(function () {
-    $('#callback-button').click(function () {
+    $('#callback-button, #callback-button-1').click(function () {
       event.preventDefault()
       $('.modal').addClass('modal_active');
     });
