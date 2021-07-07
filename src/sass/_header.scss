@@ -41,6 +41,15 @@
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        &:hover{
+            background: #a8bb01;
+            transition: all ease 1s;
+            color: #fff;
+        }
+        &:active{
+            background: #677202;
+            transition: all ease 0.5s;
+        }
     }
 
 }
