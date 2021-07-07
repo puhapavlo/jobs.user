@@ -18,10 +18,7 @@
                 <h1 class="header__title">Требуются специалисты по уборке</h1>
                 <div class="header__text">Надежный доход
                 и удобный график работы</div>
-                <button class="header__button">Записаться</button>
-            </div>
-            <div class="header__img">
-                <!-- <img src="img/cleaner_header.jpg" alt="cleaner" class="header__img"> -->
+                <a id="callback-button" class="header__button">Записаться</a>
             </div>
         </div>
     </header>
@@ -149,5 +146,33 @@
         </section>
     </main>
 
+    <div class="modal">
+        <div class="modal__content">
+            <form action="" class="anketa__form modal__form">
+                <div class="anketa__block">
+                    <label for="name" class="anketa__label">Ф.И.О.</label>
+                    <input type="text" id="name" class="anketa__input">
+                    <label for="date" class="anketa__label">Дата рождения</label>
+                    <input type="date" id="date" class="anketa__input">
+                </div>
+                <div class="anketa__block">
+                    <label for="tel" class="anketa__label">Телефон</label>
+                    <input type="tel" id="tel" class="anketa__input">
+                    <label for="list" class="anketa__label">Гражданство</label>
+                    <select class="anketa__input" name="" id="list">
+                        <option class="anketa__option" value="Выберите из списка">Выберите из списка</option>
+                        <option class="anketa__option" value="Украина">Украина</option>
+                        <option class="anketa__option" value="Россия">Россия</option>
+                        <option class="anketa__option" value="Беларусь">Беларусь</option>
+                    </select>
+                    <input type="button" class="anketa__btn" value="Записаться на собеседование">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
